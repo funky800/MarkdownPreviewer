@@ -1,3 +1,6 @@
+  link to the app:
+  https://funky800.github.io/MarkdownPreviewer/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
