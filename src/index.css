@@ -1,0 +1,64 @@
+  html, body, .App{
+ background-color: #ffebee;
+}
+   
+   .container{
+   	margin: auto;
+   }
+
+   .info{
+   min-height: 300px;
+   	width:80%;
+   	display: block;
+   	background-color: white;
+   	left: 10px;
+ 
+   }
+
+     @media(min-width: 500px)
+   {
+   	.info{
+   		min-height: 90vw;
+   		width: 300px;
+   		padding-left: 10px;
+   	}
+   }
+
+      
+    .preview{
+    min-height:400px;
+    	background-color: white;
+    	width: 80%;
+    	display: block;
+    	word-wrap: break-word;
+    }
+
+    @media(min-width: 500px)
+    {
+      .preview{
+       min-height: 90vw;
+      	width: 600px;
+      	right: 10px;
+      }
+    }
+
+
+    
+    .info, .preview{
+    	box-shadow: -5px -5px 10px;
+    	background-color: white;
+    	margin: auto;
+    	border: #e1bee7;
+    }
+
+
+     h4{
+     	text-align: center;
+     }
+
+   
+     .card-header{
+     	margin:auto;
+     background-color: #29B6F6;
+     
+     }
